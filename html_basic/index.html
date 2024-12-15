@@ -1,77 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home Page</title>
-  <link rel="stylesheet" href="styles.css"> <!-- Link to CSS file -->
+  <title>Hassan - Personal Portfolio</title> <!-- Replace with your full name -->
+  <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS for styling -->
 </head>
 <body>
 
-  <!-- Header: Navigation Menu -->
+  <!-- Header Section -->
   <header>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="tweets.html">Tweets</a></li>
-    </ul>
+    <h1>Hassan</h1>
+    <p>Full Stack Developer | Passionate about coding and technology</p>
   </header>
 
-  <!-- Main Content -->
-  <main>
-    <!-- Article: Main Content of the Page -->
-    <article>
-      <h1>Welcome to My Portfolio</h1>
-      <p>This is the home page where I introduce myself and showcase my work.</p>
-      <img src="portfolio-image.jpg" alt="Portfolio Image"> <!-- Example Image -->
-      <p>Feel free to explore my projects, and check out my latest tweets on the Tweets page!</p>
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a href="#introduction">Introduction</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
-      <!-- Learners Table -->
-      <div class="table-container">
-        <h2>Information About Learners</h2>
-        <table>
-          <thead>
-            <tr>
-              <th>Name</th>
-              <th>Age</th>
-              <th>Country</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>John</td>
-              <td>25</td>
-              <td>USA</td>
-            </tr>
-            <tr>
-              <td>Emily</td>
-              <td>28</td>
-              <td>Canada</td>
-            </tr>
-            <tr>
-              <td>Michael</td>
-              <td>32</td>
-              <td>Australia</td>
-            </tr>
-            <tr>
-              <td>Sophia</td>
-              <td>21</td>
-              <td>UK</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+  <!-- Introduction Section -->
+  <section id="introduction">
+    <h2>Introduction</h2>
+    <p>Hello! I'm Hassan, a passionate full-stack developer with experience in web development, app development, and problem-solving. I love exploring new technologies and continuously learning to improve my skills. I believe in clean code, efficient solutions, and creating user-friendly web applications.</p>
+  </section>
 
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <article class="project">
+      <h3>Project 1: Portfolio Website</h3>
+      <p>This is a personal portfolio website that showcases my skills, projects, and achievements. It is built using HTML, CSS, and JavaScript.</p>
+      <a href="https://github.com/yourusername/portfolio" target="_blank">View Project</a>
     </article>
 
-    <!-- Aside: Placeholder for Comment Thread -->
-    <aside>
-      <p>placeholder to add comment thread later</p>
-    </aside>
-  </main>
+    <article class="project">
+      <h3>Project 2: To-Do List App</h3>
+      <p>A simple yet efficient to-do list app built with React. Users can add, remove, and mark tasks as complete.</p>
+      <a href="https://github.com/yourusername/todo-app" target="_blank">View Project</a>
+    </article>
 
-  <!-- Footer: Footer with Personal Information -->
+    <!-- Add more projects here -->
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I'm a self-taught developer with a background in computer science. I enjoy learning new programming languages and frameworks. In my free time, I love contributing to open-source projects, reading tech blogs, and staying up-to-date with the latest trends in technology.</p>
+    
+    <h3>Skills:</h3>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>React, Node.js</li>
+      <li>Git, GitHub</li>
+      <li>Responsive Web Design</li>
+      <li>Database Management (SQL, NoSQL)</li>
+    </ul>
+    
+    <h3>Hobbies:</h3>
+    <ul>
+      <li>Building web applications</li>
+      <li>Reading tech books</li>
+      <li>Playing chess</li>
+    </ul>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Feel free to reach out to me for any inquiries, collaboration, or just to say hello!</p>
+    <ul>
+      <li>Email: <a href="mailto:hassan@example.com">hassan@example.com</a></li>
+      <li>LinkedIn: <a href="https://www.linkedin.com/in/hassan" target="_blank">linkedin.com/in/hassan</a></li>
+      <li>GitHub: <a href="https://github.com/hassan" target="_blank">github.com/hassan</a></li>
+    </ul>
+  </section>
+
+  <!-- Footer Section -->
   <footer>
-    <p>Made by Hassan - <a href="https://www.example.com" target="_blank">here</a></p>
+    <p>&copy; 2024 Hassan. All rights reserved.</p>
   </footer>
 
 </body>
